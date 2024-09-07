@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c17183c-12f8-487f-9cf5-270f1aa2c149" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2HnVEQYNF8wSDCJObS7IhwMvRMd" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiApplication (1).executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/265/Documents/#Source Code/frontend-class-eshop-backend-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "92d2dd5a8c43a23e9b241ac2d7dac1f4",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.api.eshop.jacksonConfig" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication (1)">
+    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vitrinbox" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.api.eshop.ApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.eshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vitrinbox" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vitrinbox.vitrinbox.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c17183c-12f8-487f-9cf5-270f1aa2c149" name="Changes" comment="" />
+      <created>1668920724960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668920724960</updated>
+      <workItem from="1668920726556" duration="70000" />
+      <workItem from="1668920812294" duration="267000" />
+      <workItem from="1668923640160" duration="1742000" />
+      <workItem from="1668942390103" duration="5377000" />
+      <workItem from="1668958001032" duration="3188000" />
+      <workItem from="1669012836091" duration="5079000" />
+      <workItem from="1669040493054" duration="125000" />
+      <workItem from="1669093547221" duration="6211000" />
+      <workItem from="1669177936741" duration="3964000" />
+      <workItem from="1669210497682" duration="1119000" />
+      <workItem from="1669274064764" duration="591000" />
+      <workItem from="1669365497428" duration="4986000" />
+      <workItem from="1669617055964" duration="1556000" />
+      <workItem from="1669694740361" duration="2096000" />
+      <workItem from="1670043387336" duration="8057000" />
+      <workItem from="1670217723294" duration="1126000" />
+      <workItem from="1670312134149" duration="1240000" />
+      <workItem from="1670580607597" duration="601000" />
+      <workItem from="1672236246879" duration="661000" />
+      <workItem from="1672302052982" duration="1233000" />
+      <workItem from="1672459543690" duration="791000" />
+      <workItem from="1673176554376" duration="543000" />
+      <workItem from="1673238039739" duration="1360000" />
+      <workItem from="1675328280056" duration="5686000" />
+      <workItem from="1675937919105" duration="141000" />
+      <workItem from="1681111393950" duration="852000" />
+      <workItem from="1681194717473" duration="261000" />
+      <workItem from="1681213747607" duration="716000" />
+      <workItem from="1681726829562" duration="1914000" />
+      <workItem from="1681791329914" duration="598000" />
+      <workItem from="1681877775859" duration="2890000" />
+      <workItem from="1682310642493" duration="632000" />
+      <workItem from="1682336513995" duration="3334000" />
+      <workItem from="1682401597502" duration="3000" />
+      <workItem from="1682405508959" duration="4193000" />
+      <workItem from="1682482034119" duration="5601000" />
+      <workItem from="1683447969115" duration="6721000" />
+      <workItem from="1683520696568" duration="6182000" />
+      <workItem from="1683543920971" duration="584000" />
+      <workItem from="1683607141797" duration="8000" />
+      <workItem from="1683627645230" duration="971000" />
+      <workItem from="1683694355014" duration="1219000" />
+      <workItem from="1683703335117" duration="7590000" />
+      <workItem from="1683787780648" duration="1422000" />
+      <workItem from="1684263588824" duration="747000" />
+      <workItem from="1684348300087" duration="1474000" />
+      <workItem from="1685184176285" duration="840000" />
+      <workItem from="1689676144590" duration="3187000" />
+      <workItem from="1689742676077" duration="4684000" />
+      <workItem from="1689850620187" duration="947000" />
+      <workItem from="1690000249201" duration="941000" />
+      <workItem from="1690086317603" duration="1438000" />
+      <workItem from="1690699841986" duration="10404000" />
+      <workItem from="1691054514148" duration="1564000" />
+      <workItem from="1691304797817" duration="8000" />
+      <workItem from="1691390663932" duration="192000" />
+      <workItem from="1692278096325" duration="917000" />
+      <workItem from="1692622310629" duration="162000" />
+      <workItem from="1692787220787" duration="35000" />
+      <workItem from="1696139602178" duration="1355000" />
+      <workItem from="1696144529962" duration="4521000" />
+      <workItem from="1696414404486" duration="2877000" />
+      <workItem from="1696511029811" duration="275000" />
+      <workItem from="1697633329850" duration="312000" />
+      <workItem from="1698834512725" duration="2694000" />
+      <workItem from="1699459160743" duration="1549000" />
+      <workItem from="1699469870940" duration="457000" />
+      <workItem from="1699504633802" duration="3071000" />
+      <workItem from="1699873336018" duration="113000" />
+      <workItem from="1700301507431" duration="1034000" />
+      <workItem from="1700321809017" duration="290000" />
+      <workItem from="1700368176914" duration="101000" />
+      <workItem from="1700933243556" duration="1547000" />
+      <workItem from="1701256090137" duration="4105000" />
+      <workItem from="1701320836780" duration="190000" />
+      <workItem from="1701500325305" duration="32000" />
+      <workItem from="1701516201736" duration="1279000" />
+      <workItem from="1701582331562" duration="1133000" />
+      <workItem from="1704693107661" duration="290000" />
+      <workItem from="1705771574108" duration="69000" />
+      <workItem from="1705907780393" duration="223000" />
+      <workItem from="1705918090810" duration="278000" />
+      <workItem from="1705994692756" duration="118000" />
+      <workItem from="1708147171957" duration="1320000" />
+      <workItem from="1725730135914" duration="1623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
