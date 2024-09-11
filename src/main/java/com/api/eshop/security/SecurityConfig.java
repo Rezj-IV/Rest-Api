@@ -64,8 +64,50 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/**/*/html",
                         "/**/*/css",
                         "/**/*/js").permitAll()
-                .antMatchers("/cars/**").permitAll()
-                .antMatchers("/mobile/**").permitAll()
+                .antMatchers(
+                        "/mobile/**",
+                        "/AllinOne/**",
+                        "/AssembledCase/**",
+                        "/Camera/**",
+                        "/CCTVcamera/**",
+                        "/Cooking/**",
+                        "/CPaccessories/**",
+                        "/CPparts/**",
+                        "/Decoration/**",
+                        "/DrinkMaker/**",
+                        "/ElectricTools/**",
+                        "/GameConsoles/**",
+                        "/GamingSupliseAndEquipment/**",
+                        "/GamingSystem/**",
+                        "/GoldCoinsBars/**",
+                        "/GoldJewelry/**",
+                        "/Handsfree/**",
+                        "/HandsfreeAccessories/**",
+                        "/HandTools/**",
+                        "/HeadphoneAndHeadset/**",
+                        "/Laptab/**",
+                        "/LaptabParts&Equipment/**",
+                        "/MobileAccessories/**",
+                        "/MobileParts/**",
+                        "/ModemAndRouterAccesspoint/**",
+                        "/Monitor/**",
+                        "/NetwrkEquipment/**",
+                        "/OfficeMachines/**",
+                        "/PowerBank/**",
+                        "/RechargeableTools/**",
+                        "/Refrigerator/**",
+                        "/Smartwatch/**",
+                        "/SmartwatchAccessories/**",
+                        "/Soundbar/**",
+                        "/Speakers/**",
+                        "/StorageEquipment/**",
+                        "/StudioEquipment/**",
+                        "/Tablet/**",
+                        "/Tv/**",
+                        "/WashingAndCleaning/**",
+                        "/Wristwatch/**"
+                        ).permitAll()
+
                 .antMatchers(SecurityConstants.SIGNUP_AND_SIGNIN_URL).permitAll()
                 .antMatchers(SecurityConstants.PUBLIC_ACCESS).permitAll()
                 .antMatchers("/*").permitAll()
