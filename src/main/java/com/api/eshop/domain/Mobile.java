@@ -22,15 +22,19 @@ public class Mobile {
     private int priceWithDicont ;
     private int price;
     private int stock ;
+    private boolean incredibleOffers;
     private int userCommentNumber ;
     private String name;
     private String nameB;
     private String indexImageUrl;
     private String category;
-    private String color;
+
+//    @OneToMany(mappedBy = "mobileC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+//    @JsonManagedReference("mobileC")
+//    private List<MobileColors> color;
 
 
-    @OneToMany(mappedBy = "mobile" , cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "mobile" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("mobile")
     private List<MobileImages> images;
 

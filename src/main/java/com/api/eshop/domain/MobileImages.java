@@ -16,7 +16,7 @@ import javax.persistence.*;
     @AllArgsConstructor
     public class MobileImages {
         @Id
-//        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int id;
 
         @Column(columnDefinition = "longtext")
