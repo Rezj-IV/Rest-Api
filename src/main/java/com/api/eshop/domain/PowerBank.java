@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -18,7 +19,7 @@ public class PowerBank {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -28,11 +29,22 @@ public class PowerBank {
     private String indexImageUrl;
     private String category;
 
-//    @OneToMany(mappedBy = "powerBankC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-//    @JsonManagedReference("powerBankC")
-//    private List<PowerBankColors> color;
+    private String inputPorts;
+    private String capacity;
+    private String numberOfOutputPorts;
+    private String totalOutputPower;
+    private String wirelessCharging;
+
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
+
+
+    @OneToMany(mappedBy = "powerBankC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("powerBankC")
+    private Set<PowerBankColors> color;
 
     @OneToMany(mappedBy = "powerBank" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("powerBank")
-    private List<PowerBankImages> images;
+    private Set<PowerBankImages> images;
 }

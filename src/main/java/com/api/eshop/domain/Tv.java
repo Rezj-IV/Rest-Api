@@ -18,7 +18,7 @@ public class Tv {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,18 @@ public class Tv {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
+
+
+
+    private String screenSize;
+    private String pageTechnology;
+    private String imageQuality;
+
+    private String userType;
+    private String panelType;
+    private String resolution;
+    private String screenType;
 
 
 

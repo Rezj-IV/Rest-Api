@@ -18,7 +18,7 @@ public class AssembledCase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,8 @@ public class AssembledCase {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
+
 
     @OneToMany(mappedBy = "assembledCase" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("assembledCase")

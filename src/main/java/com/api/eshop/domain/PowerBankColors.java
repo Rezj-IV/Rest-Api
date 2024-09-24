@@ -18,11 +18,8 @@ public class PowerBankColors {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(columnDefinition = "longtext")
-    private String original;
+    private String Color;
 
-    @Column(columnDefinition = "longtext")
-    private String thumbnail;
 
     @ManyToOne
     @JoinColumn(foreignKey = @ForeignKey(name = "PowerBankColor_fk_1"))

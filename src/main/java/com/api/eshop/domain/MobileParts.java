@@ -18,7 +18,7 @@ public class MobileParts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,7 @@ public class MobileParts {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
 
 
     @OneToMany(mappedBy = "mobileParts" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)

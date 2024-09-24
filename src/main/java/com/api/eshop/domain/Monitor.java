@@ -18,7 +18,7 @@ public class Monitor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,7 +27,24 @@ public class Monitor {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
 
+    private boolean gaming;
+
+    private String screenType;
+    private String screensSize;
+    private String screenResolution;
+    private String userType;
+
+    private String panelType;
+    private String lightIntensity;
+    private String backlight;
+
+
+
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
 
 
     @OneToMany(mappedBy = "monitor" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)

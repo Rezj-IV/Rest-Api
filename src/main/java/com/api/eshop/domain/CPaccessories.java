@@ -18,7 +18,7 @@ public class CPaccessories {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,7 +27,9 @@ public class CPaccessories {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
 
+    private String userType;
 
 
     @OneToMany(mappedBy = "cpaccessories" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)

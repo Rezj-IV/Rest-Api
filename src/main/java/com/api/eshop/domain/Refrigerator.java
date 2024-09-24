@@ -18,7 +18,7 @@ public class Refrigerator {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,17 @@ public class Refrigerator {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
+
+    private String type ;
+    private String numberOfShelveInRefrigerator;
+    private String energyConsumptionChart;
+    private String noThrush;
+
+    private String waterCooler;
+    private String iceMaker;
+
+
 
     ;
 

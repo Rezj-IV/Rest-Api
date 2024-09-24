@@ -18,7 +18,7 @@ public class Soundbar {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,15 @@ public class Soundbar {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
+
+    private String connectionType;
+    private String ports;
+    private String outputPower;
+
+    private String battery;
+    private String weight;
+
 
 
     @OneToMany(mappedBy = "soundbar" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)

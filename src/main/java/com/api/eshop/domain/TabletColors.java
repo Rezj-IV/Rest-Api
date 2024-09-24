@@ -17,11 +17,7 @@ public class TabletColors {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(columnDefinition = "longtext")
-    private String original;
-
-    @Column(columnDefinition = "longtext")
-    private String thumbnail;
+ private String Color;
 
     @ManyToOne
     @JoinColumn(foreignKey = @ForeignKey(name = "TabletColor_fk_1"))

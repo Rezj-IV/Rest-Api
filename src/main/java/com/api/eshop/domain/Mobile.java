@@ -9,6 +9,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -19,7 +20,7 @@ public class Mobile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -29,14 +30,37 @@ public class Mobile {
     private String indexImageUrl;
     private String category;
 
-//    @OneToMany(mappedBy = "mobileC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-//    @JsonManagedReference("mobileC")
-//    private List<MobileColors> color;
+    private String userType;
+
+    private String cpu;
+    private String memory;
+    private String ram;
+    private String screenSize;
+    private String rearCamera;
+    private String batteryCapacity;
+    private String simCardNumber;
+    private String operatingSystem;
+    private String resolution;
+    private String internetNetWork;
+    private String weightGirth;
+    private String pexelDensity;
+
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
+
+
+
+
+
+    @OneToMany(mappedBy = "mobileC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("mobileC")
+    private Set<MobileColors> color;
 
 
     @OneToMany(mappedBy = "mobile" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("mobile")
-    private List<MobileImages> images;
+    private Set<MobileImages> images;
 
 
 }

@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -18,7 +19,7 @@ public class Smartwatch {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -28,11 +29,25 @@ public class Smartwatch {
     private String indexImageUrl;
     private String category;
 
-//    @OneToMany(mappedBy = "smartwatchC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-//    @JsonManagedReference("smartwatchC")
-//    private List<SmartwatchColors> color;
+
+    private String compatibility ;
+    private String batteryCapacity;
+    private String abilityTalk;
+    private String persianLanguageSupport;
+
+    private String mic;
+    private String watchStyle;
+    private String bodyMaterial ;
+
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
+
+    @OneToMany(mappedBy = "smartwatchC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("smartwatchC")
+    private Set<SmartwatchColors> color;
 
     @OneToMany(mappedBy = "smartwatch" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("smartwatch")
-    private List<SmartwatchImages> images;
+    private Set<SmartwatchImages> images;
 }

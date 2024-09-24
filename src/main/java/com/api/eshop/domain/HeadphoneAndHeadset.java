@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -18,7 +19,7 @@ public class HeadphoneAndHeadset {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -28,11 +29,29 @@ public class HeadphoneAndHeadset {
     private String indexImageUrl;
     private String category;
 
-//    @OneToMany(mappedBy = "headphoneAndHeadsetC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-//    @JsonManagedReference("headphoneAndHeadsetC")
-//    private List<HeadphoneAndHeadsetColors> color;
+
+    private String userType;
+
+    private String resistanceToWaterSoil;
+    private String connectionType;
+    private String bluetooth;
+    private String anc;
+
+    private String weight;
+    private String mic;
+
+
+
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
+
+
+    @OneToMany(mappedBy = "headphoneAndHeadsetC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("headphoneAndHeadsetC")
+    private Set<HeadphoneAndHeadsetColors> color;
 
     @OneToMany(mappedBy = "headphoneAndHeadset" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("headphoneAndHeadset")
-    private List<HeadphoneAndHeadsetImages> images;
+    private Set<HeadphoneAndHeadsetImages> images;
 }

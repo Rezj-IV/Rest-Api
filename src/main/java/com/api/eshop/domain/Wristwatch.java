@@ -18,7 +18,7 @@ public class Wristwatch {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -27,6 +27,12 @@ public class Wristwatch {
     private String nameB;
     private String indexImageUrl;
     private String category;
+    private String color;
+
+    private String userType;
+    private String glassMaterial;
+    private String strapMaterial;
+    private String buckleType;
 
 
     @OneToMany(mappedBy = "wristwatch" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)

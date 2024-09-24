@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -18,7 +19,7 @@ public class MobileAccessories {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int priceWithDicont ;
+    private int priceWithDiscount ;
     private int price;
     private int stock ;
     private boolean incredibleOffers;
@@ -28,11 +29,11 @@ public class MobileAccessories {
     private String indexImageUrl;
     private String category;
 
-//    @OneToMany(mappedBy = "mobileAccessoriesC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-//    @JsonManagedReference("mobileAccessoriesC")
-//    private List<MobileAccessoriesColors> color;
+    @OneToMany(mappedBy = "mobileAccessoriesC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("mobileAccessoriesC")
+    private Set<MobileAccessoriesColors> color;
 
     @OneToMany(mappedBy = "mobileAccessories" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
     @JsonManagedReference("mobileAccessories")
-    private List<MobileAccessoriesImages> images;
+    private Set<MobileAccessoriesImages> images;
 }
