@@ -14,7 +14,7 @@ import javax.persistence.*;
     @Setter
     @NoArgsConstructor
     @AllArgsConstructor
-    public class CPaccessoriesImages {
+    public class PCpartsImages {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int id;
@@ -26,9 +26,9 @@ import javax.persistence.*;
         private String thumbnail;
 
         @ManyToOne
-        @JoinColumn(foreignKey = @ForeignKey(name = "CPaccessoriesImage_fk_1"))
-        @JsonBackReference("cpaccessories")
-        private CPaccessories cpaccessories;
+        @JoinColumn(foreignKey = @ForeignKey(name = "CPpartsImage_fk_1"))
+        @JsonBackReference("cpparts")
+        private PCparts cpparts;
     }
 
 

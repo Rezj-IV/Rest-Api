@@ -1,17 +1,17 @@
 package com.api.eshop.controller;
 
-import com.api.eshop.repository.CPpartsRepository;
 
+import com.api.eshop.repository.PCaccessoriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("CPparts")
-public class CPpartsController {
+@RequestMapping("CPaccessories")
+public class PCaccessoriesController {
     @Autowired
-    CPpartsRepository repository;
+    PCaccessoriesRepository repository;
 
     @GetMapping
     @CrossOrigin("*")

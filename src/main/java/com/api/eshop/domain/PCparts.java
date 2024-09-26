@@ -14,7 +14,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CPaccessories {
+public class PCparts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -29,10 +29,9 @@ public class CPaccessories {
     private String category;
     private String color;
 
-    private String userType;
 
 
-    @OneToMany(mappedBy = "cpaccessories" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-    @JsonManagedReference("cpaccessories")
-    private List<CPaccessoriesImages> images;
+    @OneToMany(mappedBy = "cpparts" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("cpparts")
+    private List<PCpartsImages> images;
 }

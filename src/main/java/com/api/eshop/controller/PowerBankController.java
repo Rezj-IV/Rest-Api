@@ -1,36 +1,36 @@
-package com.api.eshop.controller;
+ package com.api.eshop.controller;
 
 
-import com.api.eshop.repository.PowerBankRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+ import com.api.eshop.repository.PowerBankRepository;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.http.HttpStatus;
+ import org.springframework.http.ResponseEntity;
+ import org.springframework.web.bind.annotation.*;
 
-@RestController
-@RequestMapping("PowerBank")
-public class PowerBankController {
-     @Autowired
-     PowerBankRepository repository;
+ @RestController
+ @RequestMapping("PowerBank")
+ public class PowerBankController {
+      @Autowired
+      PowerBankRepository repository;
 
-    @GetMapping
-    @CrossOrigin("*")
-    public ResponseEntity getAll(){ return  new ResponseEntity(repository.findAll(), HttpStatus.OK);};
+     @GetMapping
+     @CrossOrigin("*")
+     public ResponseEntity getAll(){ return  new ResponseEntity(repository.findAll(), HttpStatus.OK);};
 
-    @GetMapping("{id}")
-    @CrossOrigin("*")
-    public ResponseEntity getById(@PathVariable Integer id)
-    {
-        return  new ResponseEntity(repository.findById(id), HttpStatus.OK);
-
-
-    };
-    @GetMapping("name/{name}")
-    @CrossOrigin("*")
-    public ResponseEntity getByName(@PathVariable String name)
-    {
-        return  new ResponseEntity(repository.findByName(name), HttpStatus.OK);
+     @GetMapping("{id}")
+     @CrossOrigin("*")
+     public ResponseEntity getById(@PathVariable Integer id)
+     {
+         return  new ResponseEntity(repository.findById(id), HttpStatus.OK);
 
 
-    }
-}
+     };
+     @GetMapping("name/{name}")
+     @CrossOrigin("*")
+     public ResponseEntity getByName(@PathVariable String name)
+     {
+         return  new ResponseEntity(repository.findByName(name), HttpStatus.OK);
+
+
+     }
+ }

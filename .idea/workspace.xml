@@ -6,112 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="6c17183c-12f8-487f-9cf5-270f1aa2c149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/20240921232803.nb3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/GamingSystemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/AllinOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/AllinOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/AssembledCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/AssembledCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CCTVcamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CCTVcamera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPparts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPparts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Cooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Cooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Decoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Decoration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/DrinkMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/DrinkMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ElectricTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ElectricTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GameConsoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GameConsoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GamingSupliseAndEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GamingSupliseAndEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GamingSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GamingSystemImages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GoldCoinsBars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GoldCoinsBars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GoldJewelry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/GoldJewelry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Handsfree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Handsfree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandsfreeAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandsfreeAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandsfreeColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HandsfreeColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadsetColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadsetColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Laptab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Laptab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/LaptabPartsAndEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/LaptabPartsAndEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileAccessoriesColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileAccessoriesColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/MobileParts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ModemAndRouterAccesspoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ModemAndRouterAccesspoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/NetwrkEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/NetwrkEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/OfficeMachines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/OfficeMachines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PowerBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PowerBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PowerBankColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PowerBankColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/RechargeableTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/RechargeableTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Refrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Refrigerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Smartwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Smartwatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchAccessories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchAccessories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchAccessoriesColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchAccessoriesColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SmartwatchColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Soundbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Soundbar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Speakers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Speakers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StorageEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StorageEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StudioEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StudioEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Tablet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/TabletColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/TabletColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/WashingAndCleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/WashingAndCleaning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Wristwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Wristwatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/GamingSystemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/GamingSystemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/AllinOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/AllinOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/AssembledCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/AssembledCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CCTVcamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CCTVcamera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CPaccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CPaccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CPparts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/CPparts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Camera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Combine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Cooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Cooking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Decoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Decoration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/DrinkMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/DrinkMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/ElectricTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/ElectricTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GameConsoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GameConsoles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GamingSupliseAndEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GamingSupliseAndEquipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GamingSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GamingSystemImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GoldCoinsBars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GoldCoinsBars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GoldJewelry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/GoldJewelry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Handsfree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Handsfree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandsfreeAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandsfreeAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandsfreeColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HandsfreeColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadsetColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadsetColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Laptab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Laptab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/LaptabPartsAndEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/LaptabPartsAndEquipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Mobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileAccessoriesColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileAccessoriesColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileParts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/MobileParts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/ModemAndRouterAccesspoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/ModemAndRouterAccesspoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/NetwrkEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/NetwrkEquipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/OfficeMachines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/OfficeMachines.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PowerBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PowerBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PowerBankColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PowerBankColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/RechargeableTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/RechargeableTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Refrigerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Refrigerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Smartwatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Smartwatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchAccessories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchAccessories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchAccessoriesColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchAccessoriesColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SmartwatchColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Soundbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Soundbar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Speakers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Speakers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StorageEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StorageEquipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StudioEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StudioEquipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Tablet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Tablet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/TabletColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/TabletColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Tv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Tv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/WashingAndCleaning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/WashingAndCleaning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Wristwatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Wristwatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/GamingSystemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/CPaccessoriesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/CPpartsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HandsfreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HandsfreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HeadphoneAndHeadsetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HeadphoneAndHeadsetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileAccessoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileAccessoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/PowerBankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/PowerBankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchAccessoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchAccessoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessoriesImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPparts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPpartsImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/CPaccessoriesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/CPpartsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/MobileRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,6 +229,7 @@
       <workItem from="1727210685810" duration="241000" />
       <workItem from="1727211273599" duration="125000" />
       <workItem from="1727211750687" duration="95000" />
+      <workItem from="1727379073984" duration="2630000" />
     </task>
     <servers />
   </component>
