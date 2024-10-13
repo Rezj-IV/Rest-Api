@@ -6,22 +6,65 @@
   <component name="ChangeListManager">
     <list default="true" id="6c17183c-12f8-487f-9cf5-270f1aa2c149" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/CPaccessoriesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/CPpartsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HandsfreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HandsfreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HeadphoneAndHeadsetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HeadphoneAndHeadsetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileAccessoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileAccessoriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MobileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/PowerBankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/PowerBankController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchAccessoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchAccessoriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SmartwatchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPaccessoriesImages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPparts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/CPpartsImages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/CPaccessoriesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/CPpartsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/MobileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/MobileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/HeadphoneAndHeadsetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/OfficeMachinesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/PCpartsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/SoundbarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/StorageEquipmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/StudioEquipmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/WashingAndCleaningController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadsetColors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeadphoneAndHeadsetImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/OfficeMachines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/OfficeMachinesImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PCparts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/PCpartsImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Soundbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/SoundbarImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StorageEquipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StorageEquipmentImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StudioEquipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/StudioEquipmentImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/WashingAndCleaning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/WashingAndCleaningImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/HeadphoneAndHeadsetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/OfficeMachinesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/PCpartsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/SoundbarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/StorageEquipmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/StudioEquipmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/WashingAndCleaningRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/HeadphoneAndHeadsetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/PCpartsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/SoundbarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/StorageEquipmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/StudioEquipmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/WashingAndCleaningController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadsetColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/HeadphoneAndHeadsetImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Mobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PCparts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/PCpartsImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Soundbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/SoundbarImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StorageEquipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StorageEquipmentImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StudioEquipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/StudioEquipmentImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/WashingAndCleaning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/WashingAndCleaningImages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/HeadphoneAndHeadsetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/PCpartsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/SoundbarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/StorageEquipmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/StudioEquipmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/WashingAndCleaningRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +272,20 @@
       <workItem from="1727210685810" duration="241000" />
       <workItem from="1727211273599" duration="125000" />
       <workItem from="1727211750687" duration="95000" />
-      <workItem from="1727379073984" duration="2630000" />
+      <workItem from="1727379073984" duration="2884000" />
+      <workItem from="1727533153937" duration="129000" />
+      <workItem from="1727533703186" duration="340000" />
+      <workItem from="1727545393756" duration="153000" />
+      <workItem from="1727802664651" duration="27000" />
+      <workItem from="1727809677810" duration="81000" />
+      <workItem from="1727861519838" duration="670000" />
+      <workItem from="1728330758068" duration="25000" />
+      <workItem from="1728400911590" duration="30000" />
+      <workItem from="1728427256340" duration="246000" />
+      <workItem from="1728543741205" duration="30000" />
+      <workItem from="1728730474931" duration="1705000" />
+      <workItem from="1728733144168" duration="768000" />
+      <workItem from="1728852789164" duration="205000" />
     </task>
     <servers />
   </component>

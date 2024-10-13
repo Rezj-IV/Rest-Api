@@ -105,7 +105,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/Tablet/**",
                         "/Tv/**",
                         "/WashingAndCleaning/**",
-                        "/Wristwatch/**"
+                        "/Wristwatch/**",
+                        "/FooterInformatin/**",
+                        "/Slider/**",
+                        "/TopBanner/**",
+                        "/HomeImages /**"
                         ).permitAll()
 
                 .antMatchers(SecurityConstants.SIGNUP_AND_SIGNIN_URL).permitAll()

@@ -36,7 +36,7 @@ public class Mobile {
     private String memory;
     private String ram;
     private String screenSize;
-    private String rearCamera;
+    private String cameraQuality;
     private String batteryCapacity;
     private String simCardNumber;
     private String operatingSystem;

@@ -8,13 +8,14 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Monitor {
+public class Headset {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -27,23 +28,30 @@ public class Monitor {
     private String nameB;
     private String indexImageUrl;
     private String category;
-    private String color;
 
 
-
-    private String screenType;
-    private String screensSize;
-    private String screenResolution;
     private String userType;
 
-    private String panelType;
-    private String lightIntensity;
+    private String resistanceToWaterSoil;
+    private String connectionType;
+    private String bluetooth;
+    private String anc;
+
+    private String weight;
+    private String mic;
 
 
 
+    private boolean haveDes;
+    private String description;
+    private String descriptionImage;
 
 
-    @OneToMany(mappedBy = "monitor" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
-    @JsonManagedReference("monitor")
-    private List<MonitorImages> images;
+    @OneToMany(mappedBy = "headphoneAndHeadsetC" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("headphoneAndHeadsetC")
+    private Set<HeadsetColors> color;
+
+    @OneToMany(mappedBy = "headphoneAndHeadset" , cascade = CascadeType.ALL , fetch = FetchType.EAGER)
+    @JsonManagedReference("headphoneAndHeadset")
+    private Set<HeadsetImages> images;
 }
